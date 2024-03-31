@@ -31,5 +31,6 @@ Math Quiz is an interactive educational application designed to help kids enhanc
 We welcome contributions from the community to help improve Math Quiz further. Whether it's adding new quiz categories, enhancing the user interface, or optimizing performance, your contributions are highly appreciated. Please refer to our contribution guidelines for more information on how to get involved.
 
 ## Screenshots
-![Home Screen](content/screenshots/home_screen.png)
-![Addition Quiz](content/screenshots/addition_quiz.png)
+![1](content/1.png)
+![2](content/2.png)
+![3](content/3.png)
