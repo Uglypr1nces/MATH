@@ -16,17 +16,29 @@ Math Quiz is an interactive educational application designed to help kids enhanc
 
 ## Installation
 1. Download the Math Quiz application setup file from the official website or repository.
-2. Double-click the setup file to initiate the installation process.
-3. Follow the on-screen instructions to complete the installation.
-4. Once installed, launch the Math Quiz application on your Windows system.
-
-## Usage
-1. Upon launching Math Quiz, users will be greeted with a vibrant home screen displaying various quiz categories such as addition, subtraction, multiplication, and division.
-2. Select a quiz category of choice by clicking on the corresponding button.
-3. Solve the math problems presented in each quiz by entering the answers using the provided interface.
-4. After completing the quiz, receive instant feedback on your performance, including the number of correct and incorrect answers.
-5. Track your progress and aim to improve your math skills with each quiz session.
-
+```bash
+   git clone https://github.com/Uglypr1nces/Math_Quiz.git
+```
+2. Install the necessary dependencies.
+```bash
+   curl -SL -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
+   powershell -ExecutionPolicy Bypass -File dotnet-install.ps1
+   dotnet --version
+```
+3. Build and run Chatify on your Windows system.
+```bash
+   cd Math_Quiz
+   dotnet build MATH.sln
+```
+4. Move necessary files:
+```bash
+ powerhsell -file file_mover.ps1
+```
+5. Start chatting with your friends and enjoy the seamless experience!
+```bash
+   cd MATH/bin/Debug
+   MATH.exe
+```
 ## Contributing
 We welcome contributions from the community to help improve Math Quiz further. Whether it's adding new quiz categories, enhancing the user interface, or optimizing performance, your contributions are highly appreciated. Please refer to our contribution guidelines for more information on how to get involved.
 
