@@ -16,7 +16,7 @@ Math Quiz is an interactive educational application designed to help kids enhanc
 
 ## Installation
 
-# Using Visual Studio (highly recommended)
+### Using Visual Studio (highly recommended)
 
 1. Install visual Studio <a href="https://visualstudio.microsoft.com/downloads">here</a>
 
@@ -26,7 +26,7 @@ Math Quiz is an interactive educational application designed to help kids enhanc
 
 4. Enjoy!
 
-# Using Command Line
+### Using Command Line
 
 1. Download the Math Quiz application setup file from the official website or repository.
 ```bash
