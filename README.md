@@ -28,7 +28,7 @@ Math Quiz is an interactive educational application designed to help kids enhanc
 
 ### Using Command Line
 
-1. Download the Math Quiz application setup file from the official website or repository.
+1. Clone the program.
 ```bash
    git clone https://github.com/Uglypr1nces/Math_Quiz.git
 ```
