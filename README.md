@@ -15,26 +15,39 @@ Math Quiz is an interactive educational application designed to help kids enhanc
 3. **Progress Tracking:** Track your child's progress and improvement over time with comprehensive performance summaries after each quiz session, encouraging continuous learning and growth.
 
 ## Installation
+
+# Using Visual Studio (highly recommended)
+
+1. Install visual Studio <a href="https://visualstudio.microsoft.com/downloads">here</a>
+
+2. Once opened, clone the repo https://github.com/Uglypr1nces/Math_Quiz.git in Visual Studio
+
+3. Run project, you will get a file missing error but dont worry, after youve ran it, execute the file_mover.ps1 using powershell
+
+4. Enjoy!
+
+# Using Command Line
+
 1. Download the Math Quiz application setup file from the official website or repository.
 ```bash
    git clone https://github.com/Uglypr1nces/Math_Quiz.git
 ```
-2. Install the necessary dependencies.
+2. Install dotnet.
 ```bash
    curl -SL -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
    powershell -ExecutionPolicy Bypass -File dotnet-install.ps1
    dotnet --version
 ```
-3. Build and run Chatify on your Windows system.
+3. Build and run the program on your Windows system.
 ```bash
    cd Math_Quiz
    dotnet build MATH.sln
 ```
 4. Move necessary files:
 ```bash
- powerhsell -file file_mover.ps1
+    powershell -file file_mover.ps1
 ```
-5. Start chatting with your friends and enjoy the seamless experience!
+5. Enjoy!
 ```bash
    cd MATH/bin/Debug
    MATH.exe
