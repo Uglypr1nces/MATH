@@ -1,61 +1,59 @@
-# Math Quiz 🎓
+**Math Quiz**
 
-Math Quiz is an interactive educational application designed to help kids enhance their mathematical skills through fun quizzes and exercises. With Math Quiz, children can engage in entertaining math challenges that promote learning and development in a playful environment.
+Math Quiz is an engaging educational application designed to help kids develop their mathematical skills through interactive quizzes, exercises, and fun 
+challenges. With Math Quiz, children can enjoy learning math in a playful environment that promotes cognitive development.
 
-## Table of Contents
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Screenshots](#screenshots)
+**Table of Contents**
+
+* [Key Features](#key-features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Screenshots](#screenshots)
 
 ## Key Features
-1. **Engaging Quizzes:** Enjoy a variety of interactive quizzes covering addition, subtraction, multiplication, and division, designed to make learning math enjoyable for kids.
-2. **User-Friendly Interface:** Math Quiz features a colorful and intuitive interface tailored to children, making it easy and fun to navigate through different quiz categories.
-3. **Progress Tracking:** Track your child's progress and improvement over time with comprehensive performance summaries after each quiz session, encouraging continuous learning and growth.
+
+1. **Engaging Quizzes:** Participate in a variety of interactive quizzes that cover addition, subtraction, multiplication, and division concepts, making 
+learning math enjoyable for kids.
+2. **User-Friendly Interface:** Math Quiz features a colorful and intuitive interface designed specifically for children, ensuring easy navigation through 
+different quiz categories.
+3. **Progress Tracking:** Monitor your child's progress and improvement over time with comprehensive performance summaries after each quiz session, 
+encouraging continuous learning and growth.
 
 ## Installation
 
-### Using Visual Studio (highly recommended)
+### Using Visual Studio (Highly Recommended)
 
-1. Install visual Studio <a href="https://visualstudio.microsoft.com/downloads">here</a>
-
-2. Once opened, clone the repo https://github.com/Uglypr1nces/Math_Quiz.git in Visual Studio
-
-3. Run project, you will get a file missing error but dont worry, after youve ran it, execute the file_mover.ps1 using powershell
-
-4. Enjoy!
+1. Install the latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads).
+2. Clone the repository: `https://github.com/Uglypr1nces/Math_Quiz.git`
+3. Run the project.
+4. You will encounter a file missing error, but don't worry! After running the project, execute the `file_mover.ps1` script using PowerShell to resolve the 
+issue.
 
 ### Using Command Line
 
-1. Clone the program.
-```bash
-   git clone https://github.com/Uglypr1nces/Math_Quiz.git
-```
-2. Install dotnet.
+1. Clone the repository: `git clone https://github.com/Uglypr1nces/Math_Quiz.git`
+2. Install dotnet:
 ```bash
    curl -SL -o dotnet-install.ps1 https://dot.net/v1/dotnet-install.ps1
    powershell -ExecutionPolicy Bypass -File dotnet-install.ps1
    dotnet --version
 ```
-3. Build and run the program on your Windows system.
+3. Build and run the program on your Windows system:
 ```bash
    cd Math_Quiz
    dotnet build MATH.sln
 ```
-4. Move necessary files:
-```bash
-    powershell -file file_mover.ps1
-```
-5. Enjoy!
-```bash
-   cd MATH/bin/Debug
-   MATH.exe
-```
+4. Move necessary files using the `file_mover.ps1` script: `powershell -file file_mover.ps1`
+5. Enjoy! Run the application from the `bin/Debug` directory: `cd MATH/bin/Debug && MATH.exe`
+
 ## Contributing
-We welcome contributions from the community to help improve Math Quiz further. Whether it's adding new quiz categories, enhancing the user interface, or optimizing performance, your contributions are highly appreciated. Please refer to our contribution guidelines for more information on how to get involved.
+
+We welcome contributions from the community to help improve Math Quiz further. Whether it's adding new quiz categories, enhancing the user interface, or 
+optimizing performance, your contributions are highly appreciated. Please refer to our contribution guidelines for more information on how to get involved.
 
 ## Screenshots
+
 ![1](content/1.png)
 ![2](content/2.png)
 ![3](content/3.png)
