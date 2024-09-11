@@ -1,4 +1,4 @@
-**Math Quiz**
+## Math Quiz
 
 Math Quiz is an engaging educational application designed to help kids develop their mathematical skills through interactive quizzes, exercises, and fun 
 challenges. With Math Quiz, children can enjoy learning math in a playful environment that promotes cognitive development.
